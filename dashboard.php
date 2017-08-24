@@ -6,7 +6,9 @@ require_once("cabecalho.php");
     <div class="col-lg-6 text-center">
         <div class="panel panel-default">
             <div class="panel-body">
+               div 1
                <?php include("dash-temp.php");?> 
+               
             </div>
         </div>
     </div>
@@ -14,6 +16,9 @@ require_once("cabecalho.php");
         <div class="panel panel-default">
             <div class="panel-body">
            
+                div 2
+               <?php //include("dash-umid.php");?> 
+            
             </div>
         </div>
     </div>
