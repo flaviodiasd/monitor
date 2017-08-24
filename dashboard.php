@@ -13,7 +13,7 @@ require_once("cabecalho.php");
     <div class="col-lg-6 text-center">
         <div class="panel panel-default">
             <div class="panel-body">
-               <?php include("dash-umid.php");?> 
+           
             </div>
         </div>
     </div>
