@@ -32,23 +32,8 @@ window.onload = function(){
 				max: 100,
 				symbol: 'C°',
 				title: "Temperatura",
-				pointerOptions: {
-				toplength: 8,
-				bottomlength: 8,
-				bottomwidth: 12,
-				color: '#8e8e93',
-				stroke: '#ffffff',
-				stroke_width: 2,
-				stroke_linecap: 'round'
-				},
-				gaugeWidthScale: 0.8,
 				counter: true
 		})
-		setTimeout(JustGage, 5000);
-		;
-		setInterval(function() {
-		 g1.refresh(getRandomInt(50, 100));
-        }, 100);
 };
 
 

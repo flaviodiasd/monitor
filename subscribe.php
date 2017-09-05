@@ -9,9 +9,7 @@
   $port = $mqtt['porta'];
   $username = $mqtt['usuario']; 
   $password = $mqtt['senha']; 
-
-
-
+  
   $mqtt_t = new phpMQTT("iot.eclipse.org", 1883, "Temperatura");
   $mqtt_u = new phpMQTT("iot.eclipse.org", 1883, "Umidade");
 
@@ -46,7 +44,7 @@
   $mqtt_u->close();
   
 
-/*
+
   function procmsg_t($topic,$msg){
     echo "Temperatura Recieved: $msg"."<br>";
   }
@@ -54,4 +52,4 @@
   function procmsg_u($topic,$msg){
     echo "Umidade Recieved: $msg"."<br>";
   }
-*/
+
