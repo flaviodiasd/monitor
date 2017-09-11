@@ -4,8 +4,7 @@ require_once("conecta.php");
 function buscaMqtt($conexao, $id) {
 	$query = "select * from mqtt where id = {$id}";
 	$resultado = mysqli_query($conexao, $query);
-	return mysqli_fetch_assoc($resultado);
-	
+	return mysqli_fetch_assoc($resultado);	
 }
 
 function alteraMqtt($conexao, $id, $servidor, $porta, $usuario, $senha) {
@@ -18,4 +17,3 @@ function listaMqtt($conexao) {
 	$resultado = mysqli_query($conexao, $query);
 	return mysqli_fetch_assoc($resultado);
 }
-?>
